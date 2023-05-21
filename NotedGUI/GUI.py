@@ -12,7 +12,7 @@ window.geometry('400x300')  # Set the window size as desired
 
 # Display the reminder contents
 label = tk.Label(window, text=reminder_contents, wraplength=380)
-label.pack(pady=20)
+label.pack(pady=50)
 
 # Run the application
 window.mainloop()
